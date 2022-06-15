@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px 0px;
+}
+.container{
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px;
+}
+.backimg {
+    width: 1440px;
+    height: 800px;
+    background-image: url("../image/bg.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.intro {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro-left {
+    width: 355px;
+}
+.h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.520833px;
+    color: #FFFFFF;
+}
+.p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.intro-right {
+    width: 600px;
+}
+
+.right-part-top {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 160px;
+    padding-right: 100px;
+    background-color: #5E54A4;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    border-radius: 10px;
+}
+.right-part-top-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+.right-ul-input {
+    width: 600px;
+    list-style: none;
+    padding: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    border-radius: 10px
+}
+.input{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 320px;
+    margin-bottom: 20px;
+
+    background: #FFFFFF;
+    border: 1px solid #5E54A4;
+    border-radius: 5px;
+}
+.button{
+    width: 530px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: #38CC8B;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+    border-radius: 5px;
+    border: none;
+}
+.button-word {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.last{
+    display: flex;
+    align-items: center;
+}
+.last-ahref{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+}
